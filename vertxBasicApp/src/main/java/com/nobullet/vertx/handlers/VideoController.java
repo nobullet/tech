@@ -46,7 +46,7 @@ public class VideoController implements Handler<RoutingContext> {
     }
 
     /**
-     * Suspends current request, retrieves concurrently logged in user and searches for videos by given query.
+     * Retrieves concurrently logged in user and searches for videos by given query.
      *
      * @param query Query for the video.
      * @param context Request context to resume later.
@@ -61,7 +61,7 @@ public class VideoController implements Handler<RoutingContext> {
     }
 
     /**
-     * Suspends current request, request a user and passes user completable future to video service. Example of tho
+     * Requests a user and passes user completable future to video service. Example of tho
      * subsequent usages of asynchronous services: after the user is loaded, video service loads his videos.
      *
      * @param ownerId User id of the owner.
