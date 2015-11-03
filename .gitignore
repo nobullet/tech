@@ -1,7 +1,11 @@
+.DS_Store
 *.class
+*.iml
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+.idea/
+.vertx/
+target/
+sync.sh
 
 # Package Files #
 *.jar
