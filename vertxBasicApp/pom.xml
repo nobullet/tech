@@ -9,17 +9,17 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
-            <version>3.1.0</version>
+            <version>3.5.3</version>
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web</artifactId>
-            <version>3.1.0</version>
+            <version>3.5.3</version>
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web-templ-mvel</artifactId>
-            <version>3.1.0</version>
+            <version>3.5.3</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
